@@ -26,21 +26,17 @@ Una vez iniciada la base de datos y las dependencias del proyecto, comenzamos la
 Primero es imprescindible un  php de conexión con la base de datos "obra", seguido de un formulario de  login donde se identifican los usuarios y se inicia la sesión.
 En el  index. php  incluimos uno 'requiere' a la  conexion. php, un pequeño formulario de  búsqueda por nombre y una parte con html para la salida de los datos de la base "personas" por pantalla.
 
-Si el futuro  login funciona con los usuarios creados, obtenemos una pantalla en la que podemos  incluir nuevas "personas" con un formulario en el que los campos a cubrir corresponden con las columnas de la tabla "personas" ( nuevo. php).
+Si el futuro login funciona con los usuarios creados, obtenemos una pantalla en la que podemos  incluir nuevas "personas" con un formulario en el que los campos a cubrir corresponden con las columnas de la tabla "personas" ( nuevo. php).
 Además, se crean los  respetivos archivos  php con las funciones de guardar, modificar, eliminar y actualizar registros de personas, adaptados siempre a los campos de la tabla.
 En cuanto al  login inicial por lo que acceden los usuarios (trabajadores de SOL), se hizo mediante la creación de dos archivos:  conexion. php (a la base de datos "obra") y  login. php (formulario simple y código  php que reconoce los datos). También hay un  salir. php que los devuelven al  login y un inicio. php de prueba para confirmar la funcionalidad de esta entrada de datos.
 
-En la carpeta empresas se encuentran los archivos para la visualización de la tabla del mismo nombre y la opción de hacer un nuevo registro como en personas.
+8. En la carpeta empresas se encuentran los archivos para la visualización de la tabla del mismo nombre y la opción de hacer un nuevo registro como en personas.
 
-Se añadió el trabajo del equipo de diseño sobre el apartado de personas, de este modo tenemos la página  estilada con  header y menú,  footer y un  layout completo de aplicación.
+9. Se añadió el trabajo del equipo de diseño sobre el apartado de personas, de este modo tenemos la página  estilada con  header y menú,  footer y un  layout completo de aplicación.
 
-Se reestructutó el árbol de directorios para una mejor organización de carpetas y se hizo un index principal en la base del proyecto.
+10. Se reestructutó el árbol de directorios para una mejor organización de carpetas y se hizo un index principal en la base del proyecto.
 
-Continuación del punto 6: se mejoró el sistema de  login de forma que al abrir la aplicación el primero que se pide son las credenciales de usuario y contraseña, una vez son correctas los envían la un  index que será la página de inicio de la  app.  Ahí ya encontraremos el  layout general con el menú superior para navegar por las distintas funcionalidades del sitio. También funciona el  logout de cerrar sesión, de forma que sí volvemos a abrir la aplicación se pide de nuevo la autenticación.
 
-continuación punto 7: se revisó el código y se rehizo la tabla de datos "empresas", y tras unos mínimos cambios ya  conseguemos que esta parte funcione como la de las "personas". También se añadieron las  funión de modificar, eliminar y  update.
-
-Calendario y Citas: se hizo una tabla nueva y su  php correspondiente para sacar las citas por pantalla. También se mejoró el  index. php (pantalla inicial) para que se vean  ahí las citas del día.
 
 Se puso en común el código de programación y lo de diseño del  login, personas y empresas. Se modificaron diversos archivos para su mejora y la óptima  referenciación de rutas absolutas.
 
