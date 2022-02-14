@@ -1,4 +1,4 @@
-# Prueba de Evaluación Práctica 1
+# Prueba de Evaluación Práctica 1 - Obra
 
 Realización de un modelo operativo simple de la aplicación destinada al Servicio de Orientación Laboral del Ayuntamiento de Vigo.
 
