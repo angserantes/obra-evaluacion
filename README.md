@@ -45,7 +45,7 @@ Calendario y Citas: se hizo una tabla nueva y su  php correspondiente para sacar
 Se puso en común el código de programación y lo de diseño del  login, personas y empresas. Se modificaron diversos archivos para su mejora y la óptima  referenciación de rutas absolutas.
 
 
-## Uso de  Git y  Github
+## Control de versiones con Git y Github
 
 Se elaboró un repositorio común con una rama " master" principal y diversas ramas hijas con añadidos de diferentes personas del equipo de programación, con el objetivo de no interferir con el trabajo individual pero al mismo tiempo poder ver el progreso de los compañeros y rescatar los elementos necesarios en cada momento de la elaboración de las distintas carpetas o funcionalidades.
 
